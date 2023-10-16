@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: black;
+    color: red;
+  }
+</style>
+</head>
+<body>
+  <h1>Test Warning by Syst Early Warning System</h1>
+  <p>This is a test warning message from the Syst Early Warning System.</p>
+  <audio autoplay>
+    <source src="https://whyp.it/tracks/130637/nuclear-alarm?token=pW809" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <script>
+    setTimeout(function() {
+      var audio = new Audio("https://whyp.it/tracks/130636/emergency-broadcast?token=p3dR9");
+      audio.play();
+    }, 10000); // 10 seconds delay for the second audio
+  </script>
+</body>
+</html>
